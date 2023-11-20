@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*
+{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: border-box;
+    background-color: #f8f7f4;
+}
+.navbar{
+    height:100px;
+    width:100%;
+    /* background-color: #f8f7f4; */
+    position:static;
+}
+.border:hover
+{
+    color: blue;
+}
+.nav-comp
+{
+    display:flex;
+    
+    margin-top: 10px;
+    font-size: 20px;
+}
+.nav-comp>div{
+    margin:30px;
+}
+.search{
+    border-radius: 20px;
+    background-color: #ffffff ;
+    border-color:#ffffff;
+
+}
+input.search{
+    background:url()
+}
+.signup{
+    background-color: #080b32;
+    border-radius: 30px;
+    color:#ffffff;
+    width:100px;
+    height:50px;
+    transform: translateY(-5px);
+}
+.start{
+    background-color: #080b32;
+    border-radius: 30px;
+    color:#ffffff;
+    width:200px;
+    height:50px;
+    transform: translateY(-5px);
+}
+
+.smalltxt{
+    background-color: #b2b6eb;
+    width:650px;
+    border-radius: 30px;
+    height:50px;
+}
